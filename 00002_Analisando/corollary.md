@@ -1,0 +1,1 @@
+Notou a diferença? O **var_dump** nos ajuda dando mais informações para da váriavel em questão. Lembre-se usamos o **var_dump** durante o desenvolvimento das nossas aplicações.

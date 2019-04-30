@@ -1,4 +1,4 @@
-public function teste(): void {
+public function test(): void {
 
   /*...content...*/
   $solucaoAluno = '/*...content...*/';

@@ -1,1 +1,1 @@
-Uma aula de PHP
+Primeria aula de PHP para o curso Blend de Fullstack. O tema dessa aula é Váriaveis.

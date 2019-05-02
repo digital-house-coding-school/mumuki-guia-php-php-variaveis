@@ -6,4 +6,4 @@ Vamos testar juntos alguns tipos de váriaveis, para isso crie 5 váriaveis cont
 > 4. Variavel `$verdade` contendo um valor boleano verdadeiro.
 > 5. Variavel `$nulo` contendo um valor nulo.
 
-E realize um `var_dump()` contendo as 5 váriaveis. (User `,`(virgulas para separar cada uma).
+E realize um `var_dump()` contendo as 5 váriaveis. Use `,`(virgulas para separar cada uma).

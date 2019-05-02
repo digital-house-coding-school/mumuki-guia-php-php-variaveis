@@ -11,9 +11,9 @@ public function testDescriptionExample(): void {
   $this->assertTrue(isset($verdade), 'A váriavel $verdade não está definida.');
   $this->assertTrue($nulo, 'A váriavel $nulo não está definida.');
   
-  $this->assertTrue(gettype($miTexto) == "string", 'La variable $miTexto debe ser un texto');
-  $this->assertTrue(gettype($miNumero) == "integer", 'La variable $miNumero debe ser un numero entero');
-  $this->assertTrue(gettype($miDecimal) == "double", 'La variable $miDecimal debe ser un número decimal');
-  $this->assertTrue(gettype($miVerdad) == "boolean", 'La variable $miVerdad debe ser un valor de verdad');
-  $this->assertTrue(is_null($miNulo), 'La variable $miNulo debe ser nula');
+  $this->assertTrue(gettype($texto) == "string", 'A váriavel $texto deve ser um tipo String');
+  $this->assertTrue(gettype($numeroInteiro) == "integer", 'A váriavel $numeroInteiro deve ser um tipo Inteiro');
+  $this->assertTrue(gettype($numeroDecimal) == "double", 'A váriavel $numeroDecimal deve ser um tipo Decimal');
+  $this->assertTrue(gettype($verdade) == "boolean", 'A váriavel $verdade deve ser um tipo Boolean');
+  $this->assertTrue(is_null($nulo), 'A váriavel $nulo deve ser um tipo Null');
 }

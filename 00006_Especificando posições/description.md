@@ -2,6 +2,6 @@ Vamos criar novamente uma array chamada `$minhaArray` e também iremos colocar 3
 
 Porém dessa vez iremos ** especificar as posições ** que queremos do nosso elementos.
 
-O tres numeros devem ter estar na seguintes posições: 15, 38 e 87.
+> O tres numeros da array devem ter estar na seguintes posições: 15, 38 e 87.
 
-¿No te acordas la sintaxis? Podes utilizar la pista aquí abajo :point_down:
+Se você não lembra qual a sintaxe? Experimente olhar o campo de dica :point_down: :stuck_out_tongue_winking_eye:

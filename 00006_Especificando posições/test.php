@@ -13,7 +13,7 @@ public function testResultado(): void {
     $this->assertTrue(array_key_exists(38, $minhaArray), "Não existe a posição 38 dentro da array.");
     $this->assertTrue(is_int($minhaArray[38]), "Não existe a posição 38 dentro da array.");
     
-    $this->assertTrue(array_key_exists(87, $miArray), "Não existe a posição 87 dentro da array.");
+    $this->assertTrue(array_key_exists(87, $minhaArray), "Não existe a posição 87 dentro da array.");
     $this->assertTrue(is_int($minhaArray[87]), "Não existe a posição 87 dentro da array.");
   
   

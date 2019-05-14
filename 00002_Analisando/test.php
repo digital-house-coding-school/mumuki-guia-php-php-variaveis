@@ -3,6 +3,7 @@ public function testResultado(): void {
   $solucaoAluno = '/*...content...*/';
   
   $this->assertTrue(isset($texto), 'A váriavel $texto não está definida!');
+  
   $this->assertTrue(gettype($texto) == "string", 'A váriavel $texto deve ser um texto!');
   
   $hayVD = strPos($solucaoAluno, 'var_dump($texto)');

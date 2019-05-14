@@ -8,13 +8,13 @@ public function testResultado(): void {
   
 
     $this->assertTrue(array_key_exists(15, $minhaArray), "Não existe a posição 15 dentro da array.");
+    $this->assertTrue(is_int($minhaArray[15]), "Não existe a posição 15 dentro da array.");
+    
+    $this->assertTrue(array_key_exists(38, $minhaArray), "Não existe a posição 38 dentro da array.");
     $this->assertTrue(is_int($minhaArray[38]), "Não existe a posição 38 dentro da array.");
     
-    $this->assertTrue(array_key_exists(15, $minhaArray), "No existe la posicion 15 del array");
-    $this->assertTrue(is_int($minhaArray[15]), "En la posición 15 del array no hay un número");
-    
-    $this->assertTrue(array_key_exists(18, $miArray), "No existe la posicion 18 del array");
-    $this->assertTrue(is_int($minhaArray[18]), "En la posición 10 del array no hay un número");
+    $this->assertTrue(array_key_exists(87, $miArray), "Não existe a posição 87 dentro da array.");
+    $this->assertTrue(is_int($minhaArray[87]), "Não existe a posição 87 dentro da array.");
   
   
   $definidoVacio = strpos($solucaoAluno, '[]');

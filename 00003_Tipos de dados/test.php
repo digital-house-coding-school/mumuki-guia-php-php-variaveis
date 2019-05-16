@@ -3,13 +3,13 @@ public function testResultado(): void {
   $solucaoAluno = '/*...content...*/';
   
   $vars = get_defined_vars();
-  $estaNulo = array_key_exists("miNulo", $vars);
+  $estaNulo = array_key_exists("$nulo", $vars);
   
   $this->assertTrue(isset($texto), 'A váriavel $texto não está definida.');
   $this->assertTrue(isset($numeroInteiro), 'A váriavel $numeroInteiro não está definida.');
   $this->assertTrue(isset($numeroDecimal), 'A váriavel $numeroDecimal não está definida.');
   $this->assertTrue(isset($verdade), 'A váriavel $verdade não está definida.');
-  $this->assertTrue(isset($nulo), 'A váriavel $nulo não está definida.');
+  $this->assertTrue(isset($estaNulo), 'A váriavel $nulo não está definida.');
   
   $this->assertTrue(gettype($texto) == "string", 'A váriavel $texto deve ser um tipo String');
   $this->assertTrue(gettype($numeroInteiro) == "integer", 'A váriavel $numeroInteiro deve ser um tipo Inteiro');

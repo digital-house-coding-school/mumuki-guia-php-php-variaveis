@@ -9,5 +9,5 @@ public function testResultado(): void {
   $agregado = strpos($solucaoAluno, '$miArray[]');
   $condicicaoFinal = $definidoVazio !== false && $agregado !== false;
   
-  $this->assertTrue($condicionFinal, "Lembre-se você deve agregar valores na array!");
+  $this->assertTrue($condicicaoFinal, "Lembre-se você deve agregar valores na array!");
 }

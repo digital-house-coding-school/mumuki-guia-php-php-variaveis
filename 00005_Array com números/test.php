@@ -6,7 +6,7 @@ public function testResultado(): void {
   $this->assertTrue(count($minhaArray) == 3, 'A array $minhaArray não contem 3 elementos!');
   
   $definidoVazio = strpos($solucaoAluno, '[]');
-  $agregado = strpos($solucaoAluno, '$miArray[]');
+  $agregado = strpos($solucaoAluno, '$minhaArray[]');
   $condicicaoFinal = $definidoVazio !== false && $agregado !== false;
   
   $this->assertTrue($condicicaoFinal, "Lembre-se você deve agregar valores na array!");

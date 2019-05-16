@@ -8,7 +8,7 @@ public function testResultado(): void {
   $tipos = ["string", "double", "boolean"];
   $i = 0;
   foreach ($minhaArray as $value) {
-    $this->assertTrue(gettype($value) == $tipos[$i], "O $value não é do tipo " . $tipos[$i]);
+    $this->assertTrue(gettype($value) == $tipos[$i], "A posição $value não é do tipo " . $tipos[$i]);
     $i++;
   }
 }

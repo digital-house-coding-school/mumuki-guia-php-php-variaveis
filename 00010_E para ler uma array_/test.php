@@ -2,8 +2,8 @@ public function testResultado(): void {
  /*...content...*/
   $sol = '/*...content...*/';
   $erros = [
-      '$nome'=>(isset($nome)&&$nome == $pessoa['nome]),
-      '$sobrenome' => (isset($sobrenome)&&$sobrenome == $pessoa['sobrenome]),
+      '$nome'=>(isset($nome)&&$nome == $pessoa['nome']),
+      '$sobrenome' => (isset($sobrenome)&&$sobrenome == $pessoa['sobrenome']),
       '$idade' => (isset($idade)&&$idade == $pessoa['idade'])
   ];
   var_dump($erros)

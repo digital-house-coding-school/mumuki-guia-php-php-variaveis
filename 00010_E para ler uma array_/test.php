@@ -8,6 +8,6 @@ public function testResultado(): void {
   ];
 
   foreach($erros as $key=>$value){
-    $this->assertTrue($value, "A variavel $key não está definida ou o valor está incorreto!);
+    $this->assertTrue($value, "A variavel $key não está definida ou o valor está incorreto!");
   }
 }

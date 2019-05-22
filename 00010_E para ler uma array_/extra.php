@@ -1,9 +1,9 @@
 $pessoa = [
   "nome"=>"Vinicius",
-  "Sobrenome" => "Oliveira",
-  "Altura" => 1.78,
-  "Idade" => 21,
-  "Hobbies" => [
+  "sobrenome" => "Oliveira",
+  "altura" => 1.78,
+  "idade" => 21,
+  "hobbies" => [
       "Músicas",
       "Games",
       "Comer muita comida!"

@@ -27,9 +27,7 @@ public function testDescriptionExample(): void {
   
   $alturaCorrecta = is_double($altura) && $altura == 1.88;
   
-
   $this->assertTrue($alturaCorrecta, 'A altura do Batman não está correto ou não está na quarta posição.');
-  
   
   $this->assertTrue(is_array($cinturon), 'O batcinto não é um array!');
   
@@ -37,8 +35,6 @@ public function testDescriptionExample(): void {
   
   $bruceCorda = array_pop($cinturon);
   $bruceLanterna = array_pop($cinturon);
-  
-  
   
   $linternaCorrecta = is_string($bruceLanterna) == "batlanterna";
   

@@ -17,7 +17,7 @@ public function testDescriptionExample(): void {
   
   $this->assertTrue($nombreCorrecto, 'O nome do Batman não está correto ou não está na primeira posição.');
   
-  $apellidoCorrecto = is_string($apellido) == "Wayne";
+  $apellidoCorrecto= is_string($apellido)=="Wayne";
   
   $this->assertTrue($apellidoCorrecto, 'O sobrenome do Batman não está correto ou não está na segunda posição.');
   

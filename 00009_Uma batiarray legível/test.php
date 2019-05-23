@@ -43,17 +43,16 @@ public function testResultado(): void {
   
   $this->assertTrue(count($cinturon) == 2, 'O batcinto não contem 2 itens.');
   
-  $bruceLanterna = array_pop($cinturon);
-  $bruceCorda = array_pop($cinturon);
+  $bruceLanterna = array_pop($batcinto);
+  $bruceCorda = array_pop($batcinto);
   
   
   $linternaCorrecta = is_string($bruceLanterna) == "batlanterna";
   
   $this->assertTrue($linternaCorrecta, 'A batlanterna não parece está correta ou não está na primeira posição');
   
-  $lazoCorrecto = is_string($bruceCorda) && strtolower($bruceCorda) == "batcorda";
+  $lazoCorrecto = is_string($bruceCorda) == "batcorda";
   
   $this->assertTrue($lazoCorrecto, 'A batlanterna não parece está correta ou não está na segunda posição');
-  
   
 }

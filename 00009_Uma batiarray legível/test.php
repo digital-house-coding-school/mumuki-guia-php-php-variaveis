@@ -43,8 +43,9 @@ public function testResultado(): void {
   
   $this->assertTrue(count($cinturon) == 2, 'O batcinto não contem 2 itens.');
   
-  $bruceLanterna = array_pop($batcinto);
-  $bruceCorda = array_pop($batcinto);
+  $bruceCorda = array_pop($cinturon);
+  $bruceLanterna = array_pop($cinturon);
+  
   
   
   $linternaCorrecta = is_string($bruceLanterna) == "batlanterna";

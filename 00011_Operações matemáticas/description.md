@@ -1,4 +1,4 @@
-Teremos as seguintes váriaveis já criadas `$a = 100` e um `$b =  25`.
+Teremos as seguintes váriaveis já criadas `$a` e um `$b`.
 
 Seu desafio é construir 5 novas variáveis:
 

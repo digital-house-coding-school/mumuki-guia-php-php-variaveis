@@ -21,7 +21,7 @@ public function testResultado(): void {
   $apellido = $batman["sobrenome"];
   $nombre = $batman["nome"];
   
-  $nombreCorrecto = is_string($nombre) && strtolower($nombre) == "Bruce";
+  $nombreCorrecto = is_string($nombre) == "Bruce";
   
   $this->assertTrue($nombreCorrecto, 'O nome do Batman não está correto ou não está na posição "nome".');
   

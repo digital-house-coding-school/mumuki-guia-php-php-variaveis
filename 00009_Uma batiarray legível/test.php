@@ -10,54 +10,50 @@ public function testResultado(): void {
   $this->assertTrue(count($batman) == 5, 'A Variavel $batman não contem 5 itens!');
   
   $this->assertTrue(array_key_exists("nome",$batman), 'A Array $batman não contem a associação nome!');
-  $this->assertTrue(array_key_exists("apellido",$batman), 'El array $batman no tiene ninguna posición llamada "apellido"');
-  $this->assertTrue(array_key_exists("peso",$batman), 'El array $batman no tiene ninguna posición llamada "peso"');
-  $this->assertTrue(array_key_exists("altura",$batman), 'El array $batman no tiene ninguna posición llamada "altura"');
-  $this->assertTrue(array_key_exists("baticinturon",$batman), 'El array $batman no tiene ninguna posición llamada "baticinturon"');
+  $this->assertTrue(array_key_exists("sobrenome",$batman), 'A Array $batman não contem a associação sobrenome!');
+  $this->assertTrue(array_key_exists("peso",$batman), 'A Array $batman não contem a associação peso!');
+  $this->assertTrue(array_key_exists("altura",$batman), 'A Array $batman não contem a associação altura!');
+  $this->assertTrue(array_key_exists("batcinto",$batman), 'A Array $batman não contem a associação batcinto!');
   
-  $cinturon = $batman["baticinturon"];
+  $cinturon = $batman["batcinto"];
   $altura = $batman["altura"];
   $peso = $batman["peso"];
-  $apellido = $batman["apellido"];
-  $nombre = $batman["nombre"];
+  $apellido = $batman["sobrenome"];
+  $nombre = $batman["nome"];
   
-  $nombreCorrecto = is_string($nombre) && strtolower($nombre) == "bruno";
+  $nombreCorrecto = is_string($nombre) && strtolower($nombre) == "Bruce";
   
-  $this->assertTrue($nombreCorrecto, 'El nombre de Batman pareceria no ser correcto o no estar en la primer posición...');
+  $this->assertTrue($nombreCorrecto, 'O nome do Batman não está correto ou não está na posição "nome".');
   
-  $apellidoCorrecto = is_string($apellido) && strtolower($apellido) == "diaz";
+  $apellidoCorrecto = is_string($apellido) && strtolower($apellido) == "Wayne";
   
-  $this->assertTrue($apellidoCorrecto, 'El apellido de Batman pareceria no ser correcto o no estar en la segunda posición...');
+  $this->assertTrue($apellidoCorrecto, 'O sobrenome do Batman não está correto ou não está na posição "sobrenome".');
   
   $pesoCorrecto = is_int($peso) && $peso == 95;
   
-  $this->assertTrue($pesoCorrecto, 'El peso de Batman pareceria no ser correcto o no estar en la tercera posición...');
+  $this->assertTrue($pesoCorrecto, 'O peso do Batman não está correto ou não está na posição "peso".');
   
-  $alturaCorrecta = is_double($altura) && $altura == 1.8;
-  
-  
-  $this->assertTrue($alturaCorrecta, 'La altura de Batman pareceria no ser correcta o no estar en la cuarta posición...');
+  $alturaCorrecta = is_double($altura) && $altura == 1.88;
   
   
-  $this->assertTrue(is_array($cinturon), 'El cinturón parecería no ser un array...');
+  $this->assertTrue($alturaCorrecta, 'O altura do Batman não está correto ou não está na posição "altura".');
   
-  $this->assertTrue(count($cinturon) == 3, 'El cinturón no tiene 3 elementos');
   
-  $lazo = array_pop($cinturon);
-  $dardos = array_pop($cinturon);
-  $linterna = array_pop($cinturon);
+  $this->assertTrue(is_array($cinturon), 'O batcinto não é um array!');
   
-  $linternaCorrecta = is_string($linterna) && strtolower($linterna) == "batilinterna";
+  $this->assertTrue(count($cinturon) == 2, 'O batcinto não contem 2 itens.');
   
-  $this->assertTrue($linternaCorrecta, 'La Batilinterna de Batman no parecería estar correcta o primera en su cinturón');
+  $bruceLanterna = array_pop($cinturon);
+  $bruceCorda = array_pop($cinturon);
   
-  $dardosCorrecto = is_string($dardos) && strtolower($dardos) == "batidardos";
   
-  $this->assertTrue($dardosCorrecto, 'Los Batidardos de Batman no parecerían estar correctos o segundos en su cinturón');
+  $linternaCorrecta = is_string($bruceLanterna) && strtolower($bruceLanterna) == "batlanterna";
   
-  $lazoCorrecto = is_string($lazo) && strtolower($lazo) == "batilazo";
+  $this->assertTrue($linternaCorrecta, 'A batlanterna não parece está correta ou não está na primeira posição');
   
-  $this->assertTrue($lazoCorrecto, 'El Batilazo de Batman no parecería estar correcto o tercero en su cinturón');
+  $lazoCorrecto = is_string($bruceCorda) && strtolower($bruceCorda) == "batcorda";
+  
+  $this->assertTrue($lazoCorrecto, 'A batlanterna não parece está correta ou não está na segunda posição');
   
   
 }

@@ -1,7 +1,7 @@
 public function testResultado(): void {
  
   /*...content...*/
-  $sol = '/*...content...*/';
+
   $this->assertTrue(isset($soma) && $soma == 125, 'A variavel $soma não foi criada ou não contem o valor correto!');
   $this->assertTrue(isset($subtracao) && $subtracao === 75, 'A variavel $subtracao não foi criada ou não contem o valor correto!');
   $this->assertTrue(isset($multiplicacao) && $multiplicacao === 2500, 'A variavel $multiplicacao não foi criada ou não contem o valor correto!');

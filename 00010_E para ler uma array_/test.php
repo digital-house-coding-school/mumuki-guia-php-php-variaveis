@@ -4,8 +4,8 @@ public function testResultado(): void {
   
   $erros = [
       'nome'=> (isset($nome) && $nome == "Vinicius"),
-      '$sobrenome' => (isset($sobrenome)&&$sobrenome == $pessoa['sobrenome']),
-      '$idade' => (isset($idade)&&$idade == $pessoa['idade'])
+      'sobrenome' => (isset($sobrenome)&&$sobrenome == $pessoa['sobrenome']),
+      'idade' => (isset($idade)&&$idade == $pessoa['idade'])
   ];
 
 

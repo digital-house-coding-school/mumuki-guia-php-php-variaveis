@@ -1,0 +1,1 @@
+$pessoa = ["nome"=>"Vinicius","sobrenome" => "Oliveira","altura" => 1.78,"idade" => 21];

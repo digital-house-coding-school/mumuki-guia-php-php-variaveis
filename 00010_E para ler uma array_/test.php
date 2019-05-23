@@ -2,13 +2,24 @@ public function testResultado(): void {
     /*...content...*/
   $sol = '/*...content...*/';
   
-  $solNome= isset($nome) && $nome == $pessoa['nome'];
-  $solSobrenome = isset($sobrenome) && $sobrenome == $pessoa['sobrenome'];
+  $nomeOK = isset($nome) && $nome === "Vinicius";
+
+  $this->assertTrue($nomeOK, 'A variavel $nome não foi definda ou está com o valor errado!');
   
-  $solIdade = isset($idade) && $idade == $pessoa['idade'];
+  $apodoCorrecto = isset($apodo) && $apodo === "Manu";
   
-  $this->assertTrue($solNome, 'A variavel $nome não está definida ou o valor está incorreto!');
-  $this->assertTrue($solSobrenome, 'A variavel $sobrenome não está definida ou o valor está incorreto!');
-  $this->assertTrue($solIdade, 'A variavel $sobrenome não está definida ou o valor está incorreto!');
+  
+
+  $this->assertTrue($apodoCorrecto, 'La variable $apodo parecería no existir o no tener el valor correcto');
+  
+  $this->assertTrue(isset($equipo) && $equipo === "San Antonio Spurs", 'La variable $equipo parecería no existir o no tener el valor correcto');
+  
+  $numEmanuel = substr_count($sol, "Emanuel");
+  $numManu = substr_count($sol, "Manu");
+  $numSpurs = substr_count($sol, "Spurs");
+  
+  $trampa = $numEmanuel > 1 || $numManu > 1 || $numSpurs > 1;
+  
+  $this->assertFalse($trampa, "Lamentamos informar que algo parecería estar...raro en tu código. Las palabras 'Emanuel', 'Manu' y 'Spurs' no deberían aparecer más de una vez en el código enviado...");
 
 }

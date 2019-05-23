@@ -25,7 +25,7 @@ public function testResultado(): void {
   
   $this->assertTrue($nombreCorrecto, 'O nome do Batman não está correto ou não está na posição "nome".');
   
-  $apellidoCorrecto = is_string($apellido) && strtolower($apellido) == "Wayne";
+  $apellidoCorrecto = is_string($apellido) == "Wayne";
   
   $this->assertTrue($apellidoCorrecto, 'O sobrenome do Batman não está correto ou não está na posição "sobrenome".');
   

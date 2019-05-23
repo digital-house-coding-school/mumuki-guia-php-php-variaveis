@@ -12,7 +12,7 @@ $this->assertTrue(isset($batman), 'A Variavel $batman não está definida!');
   $altura = array_pop($batman);
   $peso = array_pop($batman);
   $apellido = array_pop($batman);
-  $nombre = array_pop($batman);
+  $nombre = $batman[0];
   
    $nombreCorrecto = is_string($nombre) == "Bruce";
   

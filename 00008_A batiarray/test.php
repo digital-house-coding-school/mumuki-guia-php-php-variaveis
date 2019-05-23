@@ -14,7 +14,7 @@ $this->assertTrue(isset($batman), 'A Variavel $batman não está definida!');
   $apellido = array_pop($batman);
   $nombre = array_pop($batman);
   
-   $nombreCorrecto = is_string($nombre) && strtolower($nombre) == "Bruce";
+   $nombreCorrecto = is_string($nombre) == "Bruce";
   
 $this->assertTrue($nombreCorrecto, 'O nome do Batman não está correto ou não está na primeira posição.');
   

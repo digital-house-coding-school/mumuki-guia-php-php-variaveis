@@ -4,4 +4,4 @@ Outra opção é usar variáveis auxiliares para armazenar resultados intermedi�
 
 Para exercitar isso, pediremos a você:
 >Crie novamente as variaveis `$numero1 = 100; $numero2 = 25`
->Adicione os números `$numero1` e `$numero1` e subtraia 10. Finalmente, o número obtido a partir dessa conta deve ser dividido por 5. O resultado final deve estar na variável `$resultado`
+>Some os números `$numero1` e `$numero2` e subtraia 10. Finalmente, o número obtido a partir dessa conta deve ser dividido por 5. O resultado final deve estar na variável `$resultado`

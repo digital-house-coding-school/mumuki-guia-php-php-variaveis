@@ -1,9 +1,21 @@
 public function testResultado(): void {
     /*...content...*/
     $sol = '/*...content...*/';
+    
+  $this->assertTrue(isset($pessoa), 'A array $pessoa não foi criada');
+   $this->assertTrue(count($pessoa) == 3, 'A array $pessoa não contem as 3 informações');
+  $tNome = $pessoa[0];
+  $tSobre = $pessoa[1];
+  $tIdade = $pessoa[2];
   
-  $tNome = isset($nome) && substr_count($sol, '$nome= $pessoa["nome"]')>0;
+  $this->assertTrue($nome == $tNome, 'A variavel $nome não conte o valor da array!');
+  $this->assertTrue($sobrenome == $tSobre, 'A variavel $nome não conte o valor da array!');
+  $this->assertTrue($idade == $tIdade, 'A variavel $nome não conte o valor da array!');
   
-   $this->assertTrue($tNome, 'A variavel $nome não foi criada ou está com valor diferente da array!');
+  
+  
+  
+   
+   
 
 }

@@ -1,4 +1,10 @@
-Dessa vez, o sistema já criou um array chamada `$pessoa` contendo algumas informações!
+Crie um array de posições chamado `$pessoa` contendo as seguintes informações:
+
+> 1. Nome Jon
+> 2. Sobrenome Snow
+> 3. Idade 23
+
+
 
 O nosso trabalho aqui é criar 3 váriaveis contendo algumas dessas informações:
 

@@ -8,9 +8,9 @@ public function testResultado(): void {
   $tSobre = $pessoa[1];
   $tIdade = $pessoa[2];
   
-  $this->assertTrue($nome == $tNome, 'A variavel $nome não conte o valor da array!');
-  $this->assertTrue($sobrenome == $tSobre, 'A variavel $nome não conte o valor da array!');
-  $this->assertTrue($idade == $tIdade, 'A variavel $nome não conte o valor da array!');
+  $this->assertTrue($nome == $tNome, 'A variavel $nome não contem o valor da array!');
+  $this->assertTrue($sobrenome == $tSobre, 'A variavel $nome não contem o valor da array!');
+  $this->assertTrue($idade == $tIdade, 'A variavel $nome não contem o valor da array!');
   
   
   

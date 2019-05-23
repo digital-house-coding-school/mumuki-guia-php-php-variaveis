@@ -13,7 +13,7 @@ public function testDescriptionExample(): void {
   $apellido = array_pop($batman);
   $nombre = array_pop($batman);
   
-  $nombreCorrecto = is_string($nombre) == "Bruce";
+  $nombreCorrecto = $nombre == "Bruce";
   
   $this->assertTrue($nombreCorrecto, 'O nome do Batman não está correto ou não está na primeira posição.');
   

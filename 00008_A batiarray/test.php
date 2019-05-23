@@ -18,7 +18,7 @@ $this->assertTrue(isset($batman), 'A Variavel $batman não está definida!');
   
 $this->assertTrue($nombreCorrecto, 'O nome do Batman não está correto ou não está na primeira posição.');
   
-  $apellidoCorrecto= is_string($apellido) =="Wayne";
+  $apellidoCorrecto= $apellido =="Wayne";
   
   $this->assertTrue(true, 'O sobrenome do Batman não está correto ou não está na segunda posição.');
   
@@ -37,11 +37,11 @@ $this->assertTrue($nombreCorrecto, 'O nome do Batman não está correto ou não 
   $bruceCorda = array_pop($cinturon);
   $bruceLanterna = array_pop($cinturon);
   
-  $linternaCorrecta = is_string($bruceLanterna) == "batlanterna";
+  $linternaCorrecta = $bruceLanterna == "batlanterna";
   
   $this->assertTrue($linternaCorrecta, 'A batlanterna não parece está correta ou não está na primeira posição');
   
-  $lazoCorrecto = is_string($bruceCorda) == "batcorda";
+  $lazoCorrecto = $bruceCorda == "batcorda";
   
   $this->assertTrue($lazoCorrecto, 'A batlanterna não parece está correta ou não está na segunda posição');
   

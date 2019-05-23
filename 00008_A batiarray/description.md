@@ -1,5 +1,7 @@
 Chega de Arrays aleatórias.
-É hora de descrever o **Batman**   
+
+É hora de descrever o 🦇**Batman**🦇  
+
 
 Para isso, crie uma array chamada `$batman` com a seguinte estrutura:
 
@@ -10,3 +12,5 @@ Para isso, crie uma array chamada `$batman` com a seguinte estrutura:
 > 5. Seu batcinto deve ser composto por: batlanterna e batcorda!
 
 Você percebe algo peculiar? O cinto do Batman vai ser um array dentro do array.
+
+🦇🦇🦇

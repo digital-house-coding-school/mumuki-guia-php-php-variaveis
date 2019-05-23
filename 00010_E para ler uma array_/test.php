@@ -3,7 +3,7 @@ public function testResultado(): void {
   $sol = '/*...content...*/';
   
   $erros = [
-      '$nome'=>(isset($nome)&&$nome == $pessoa['nome']),
+      '$nome'=>(isset($nome) && $nome == "Vinicius"),
       '$sobrenome' => (isset($sobrenome)&&$sobrenome == $pessoa['sobrenome']),
       '$idade' => (isset($idade)&&$idade == $pessoa['idade'])
   ];

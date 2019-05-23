@@ -2,10 +2,16 @@ public function testResultado(): void {
     /*...content...*/
   $sol = '/*...content...*/';
   
-  $nomeOK = $nome == "Vinicius";
+  $erros = [
+      '$nome'=>(isset($nome)&&$nome == $pessoa['nome']),
+      '$sobrenome' => (isset($sobrenome)&&$sobrenome == $pessoa['sobrenome']),
+      '$idade' => (isset($idade)&&$idade == $pessoa['idade'])
+  ];
+;
 
-  $this->assertTrue($nomeOK, 'A variavel $nome não foi definda ou está com o valor errado!');
-  
+foreach($erros as $key=>$value){
+   $this->assertTrue($value,"A variavel $key não está definida ou o valor está incorreto!");
+  }
   
 
 }

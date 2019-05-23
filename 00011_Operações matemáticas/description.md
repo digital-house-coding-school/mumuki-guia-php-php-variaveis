@@ -1,4 +1,4 @@
-Como você pode ver, temos um `$number1` e um `$number2`.
+Teremos as seguintes váriaveis já criadas `$number1 = 100` e um `$number2 =  25`.
 
 Seu desafio é construir 5 novas variáveis:
 

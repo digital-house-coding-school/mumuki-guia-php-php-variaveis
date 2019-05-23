@@ -47,7 +47,7 @@ public function testResultado(): void {
   $bruceCorda = array_pop($cinturon);
   
   
-  $linternaCorrecta = is_string($bruceLanterna) && strtolower($bruceLanterna) == "batlanterna";
+  $linternaCorrecta = is_string($bruceLanterna) == "batlanterna";
   
   $this->assertTrue($linternaCorrecta, 'A batlanterna não parece está correta ou não está na primeira posição');
   

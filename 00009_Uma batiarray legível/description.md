@@ -8,6 +8,6 @@ Usando um **array associativo**
 > 2. A posição com o valor "Wayne" deve ser chamada de "sobrenome"
 > 3. A posição com o valor 95 deve ser chamada de "peso"
 > 4. A posição com o valor 1,88 deve ser chamada de "altura"
-> 5. Finalmente a batLanterna e batcorda deve estar na posição "batcinto"
+> 5. Finalmente a batlanterna e batcorda deve estar na posição "batcinto"
 
 É essencial que você respeite as minúsculas nas posições da matriz (não em PHP, sim para o exercício!)

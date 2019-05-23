@@ -11,5 +11,5 @@ public function testResultado(): void {
   $this->assertTrue($solIdade, 'A variavel $sobrenome não está definida ou o valor está incorreto!');
   
   
-  $this->assertFalse(substr_count($sol, "$pessoa['nome']) == 1, "Lamentamos informar que algo parecería estar...raro en tu código. Las palabras 'Emanuel', 'Manu' y 'Spurs' no deberían aparecer más de una vez en el código enviado...");
+  $this->assertFalse(substr_count($sol, "$pessoa['nome']") == 1, "Lamentamos informar que algo parecería estar...raro en tu código. Las palabras 'Emanuel', 'Manu' y 'Spurs' no deberían aparecer más de una vez en el código enviado...");
 }

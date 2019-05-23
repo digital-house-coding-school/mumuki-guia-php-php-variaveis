@@ -16,7 +16,10 @@ public function testDescriptionExample(): void {
   $nombreCorrecto = is_string($nombre) == "Bruce";
   
   $this->assertTrue($nombreCorrecto, 'O nome do Batman não está correto ou não está na primeira posição.');
-  $this->assertTrue($apellidoCorrecto, 'O sobrenome do Batman não está correto ou não está na segunda posição.');
+  
+  $apellidoCorrecto= is_string($apellido) =="Wayne";
+  
+  $this->assertTrue(true, 'O sobrenome do Batman não está correto ou não está na segunda posição.');
   
   $pesoCorrecto = is_int($peso) && $peso == 95;
   

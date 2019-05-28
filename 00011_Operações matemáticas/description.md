@@ -2,7 +2,7 @@ Crie duas váriaveis:
 `$numero1 = 100;
 $numero2 = 25;`
 
-Seu desafio é construir 5 novas variáveis a partir dela:
+Seu desafio é construir 5 novas variáveis a partir delas:
 
 > 1. A variável `$soma` que tem a soma de ambas as variáveis
 > 2. A variável `$subtracao` que tem o resultado de subtrair `$numero1` de `$numero2` (o resultado deve ser 75)

@@ -4,10 +4,10 @@ Como?
 
 Usando um **array associativo**
 
-> 1. A posição com o valor "Bruce" deve ser chamada de "nome"
-> 2. A posição com o valor "Wayne" deve ser chamada de "sobrenome"
-> 3. A posição com o valor 95 deve ser chamada de "peso"
-> 4. A posição com o valor 1,88 deve ser chamada de "altura"
-> 5. Finalmente a batlanterna e batcorda deve estar na posição "batcinto"
+> 1. A posição "nome" deve receber o valor "Bruce".
+> 2. A posição "sobrenome" deve receber o valor "Wayne".
+> 3. A posição "peso" deve receber o valor 95.
+> 4. A posição "altura" deve receber o valor 1,88.
+> 5. A posição "batcinto" deve receber o valor "batlanterna" e "batcorda".
 
-É essencial que você respeite as minúsculas nas posições da matriz (não em PHP, sim para o exercício!)
+É essencial que você respeite as letras minúsculas nas posições da matriz (não em PHP, sim para o exercício!)

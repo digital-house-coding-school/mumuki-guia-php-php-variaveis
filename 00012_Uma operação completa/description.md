@@ -1,4 +1,4 @@
-Um detalhe adicional é que, como na matemática tradicional, podemos agrupar as operações com parênteses, esclarecendo assim a prioridade de nossas operações.
+Um detalhe é que assim como na matemática tradicional, na programação também podemos agrupar as operações com parênteses, esclarecendo assim a prioridade das operações.
 
 Outra opção é usar variáveis auxiliares para armazenar resultados intermediários.
 
